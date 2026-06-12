@@ -1,0 +1,41 @@
+header {
+  height: 70px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  .header-nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .burger-bar{
+      display: none;
+    }
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+    .nav-lists{
+        display: flex;
+        column-gap: 40px;
+    }
+    .nav-list {
+      display: flex;
+      align-items: center;
+      column-gap: 50px;
+      .nav-item {
+        a {
+          font-size: $navFontSize;
+          color: $secondaryColor;
+          font-weight: $navFontWeight;
+          font-family: $font;
+        }
+      }
+    }
+    .social-platforms {
+      display: flex;
+      column-gap: 20px;
+      align-items: center;
+    }
+  }
+}

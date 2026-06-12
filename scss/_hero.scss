@@ -1,0 +1,19 @@
+section{
+    .hero{
+        min-height: 400px;
+        margin: 250px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hero-text{
+            font-size: 50px;
+            color: $primaryColor;
+            font-family: $poppins;
+            font-weight: $fontWeight700;
+            line-height: 70px;
+        }
+        .hero-pic{
+            max-width: 350px;
+        }
+    }
+}

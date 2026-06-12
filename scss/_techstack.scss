@@ -1,0 +1,29 @@
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  row-gap: 150px;
+  align-items: center;
+  margin-bottom: 250px;
+  .tech-stack-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    .header {
+      font-size: $h2size;
+      font-weight: $fontWeight700;
+      color: $primaryColor;
+      font-family: $poppins;
+    }
+    .desc {
+      font-size: $parsize;
+      font-family: $poppins;
+      color: $secondaryColor;
+    }
+  }
+  .skills {
+    display: flex;
+    gap: 105px;
+    flex-wrap: wrap;
+  }
+}
